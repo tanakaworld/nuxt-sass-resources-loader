@@ -23,8 +23,6 @@
 </script>
 
 <style scoped lang="sass">
-  @import "@/assets/styles/variables.sass"
-
   .container
     background-color: $color-title-home
 </style>

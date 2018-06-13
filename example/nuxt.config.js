@@ -34,5 +34,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    ['nuxt-sass-resources-loader', {
+      resources: '@/assets/styles/variables.sass'
+    }],
+  ]
 }
