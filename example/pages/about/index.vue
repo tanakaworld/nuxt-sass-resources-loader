@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        Home
+        About
       </h1>
       <div class="links">
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/">Home</nuxt-link>
       </div>
     </div>
   </section>
@@ -26,5 +26,5 @@
   @import "@/assets/styles/variables.sass"
 
   .container
-    background-color: $color-title-about
+    background-color: $color-title-home
 </style>
